@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">first</string>
+    <string name="username">Username</string>
+    <string name="register_text">have you (…,got…)?</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="Password">Password</string>
+    <string name="Confirmar">Confirmar</string>
 </resources>

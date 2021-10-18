@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/id_logo_background.xml" value="0.31145833333333334" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/id_password_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/id_person_foreground.xml" value="0.3828125" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/mipmap-anydpi-v26/id_logo.xml" value="0.31145833333333334" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/mipmap-anydpi-v26/my_launcher.xml" value="0.11203703703703703" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/mipmap-anydpi-v26/my_launcher_round.xml" value="0.2046875" />
       </map>
