@@ -5,4 +5,7 @@
     <string name="confirmar">Confirmar</string>
     <string name="Password">Password</string>
     <string name="Confirmar">Confirmar</string>
+    <string name="invitado">invitado</string>
+    <string name="registro">registro</string>s
+    <string name="Email">Email</string>
 </resources>

@@ -4,8 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    android:background="@drawable/gradient"
+    tools:context=".Login">
 
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        ></ImageView>
+<!--   android:src="@drawable/girl"  -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/gradient"></View>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til1"
@@ -22,7 +36,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white_alpha"
             android:maxLines="1"
+
 
             />
 
@@ -45,8 +61,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1"
-            />
+            android:background="@color/white_alpha"
+            android:maxLines="1" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,12 +91,26 @@
 
     <Button
         android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button_custom"
+        android:onClick="openMain"
         android:text="@string/confirmar"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline3"
-        app:layout_constraintTop_toBottomOf="@id/til2"
-        style="@style/mybutton" />
+        app:layout_constraintTop_toBottomOf="@id/til2" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/opuesto"
+        android:layout_marginBottom="184dp"
+        android:text="@string/registro"
+        android:onClick="openSignup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
 
 
     <TextView
@@ -89,29 +119,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="@string/register_text"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="16sp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <ImageView
         android:id="@+id/logo"
-        android:src="@mipmap/id_logo_foreground"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_mando"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guideline4"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
 
-    <Button
-        android:id="@+id/button2"
-        style="@style/opuesto"
-        android:layout_marginBottom="184dp"
-        android:text="@string/Confirmar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
