@@ -2,7 +2,7 @@
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 
     <translate xmlns:android="http://schemas.android.com/apk/res/android"
-        android:duration="1000"
+        android:duration="2000"
         android:fillAfter="true"
         android:fromXDelta="-50%p"
         android:toXDelta="0%p"
@@ -10,12 +10,13 @@
         android:toYDelta="0%p"
         />
     <translate xmlns:android="http://schemas.android.com/apk/res/android"
-        android:startOffset="1000"
-        android:duration="500"
+        android:startOffset="2000"
+        android:duration="1000"
         android:fillAfter="true"
         android:fromXDelta="0%p"
         android:toXDelta="100%p"
         android:fromYDelta="0%p"
         android:toYDelta="-100%p"
         />
+
 </set>
