@@ -37,9 +37,9 @@ public class SplashScreen extends AppCompatActivity {
 //                .into(mFondo);
 
         icono = (ImageView) findViewById(R.id.logo);
-        Animation rotate = AnimationUtils.loadAnimation(this, R.anim.anim);
+        //Animation rotate = AnimationUtils.loadAnimation(this, R.anim.anim);
         Animation traslate = AnimationUtils.loadAnimation(this, R.anim.traslacion);
-        icono.startAnimation(rotate);
+        //icono.startAnimation(rotate);
         icono.startAnimation(traslate);
     }
     //SIRVE PARA HACER LA TRANSICION ENTRE EL SPLASH Y EL LOGIN
@@ -52,6 +52,6 @@ public class SplashScreen extends AppCompatActivity {
                 Intent intent = new Intent(SplashScreen.this, Login.class);
                 startActivity(intent);
             }
-        }, 6000);
+        }, 3000);
     }
 }
