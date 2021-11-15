@@ -7,6 +7,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -16,7 +18,7 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
  * @author Alex y Alejandro
  */
 public class Login extends AppCompatActivity {
-
+    ImageView logo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,10 @@ public class Login extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(100))
                 //.circleCrop()
                 .into(mGirl);
+        logo = (ImageView) findViewById(R.id.logo);
+        Animation traslacion = AnimationUtils.loadAnimation(this, R.anim.anim);
+        //icono.startAnimation(rotate);
+        logo.startAnimation(traslacion);
     }
 
     public void openMain(View v){
