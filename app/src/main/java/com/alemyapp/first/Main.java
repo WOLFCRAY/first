@@ -6,6 +6,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
 import android.view.ContextMenu;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -54,5 +55,27 @@ public class Main extends AppCompatActivity {
             default:
                 return super.onContextItemSelected(item);
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+
+        if(id == R.id.item3){
+            Toast toast = Toast.makeText(this,"Intfecting",Toast.LENGTH_LONG);
+            toast.show();
+        }
+        if(id == R.id.item4){
+            Toast toast = Toast.makeText(this,"Fixing",Toast.LENGTH_LONG);
+            toast.show();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
