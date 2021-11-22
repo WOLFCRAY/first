@@ -1,13 +1,21 @@
-## Mi primer proyecto First
-# Funcionamiento 
+# Mi primer proyecto First
+## Concepto
+**SPLASH**  **LOGIN**   **SIGNUP**  **MAIN**
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through.
+![issue tab](images/splash.png) ![issue tab](images/login.png)  ![issue tab](images/signup.png) ![issue tab](images/main.png)
+## Funcionamiento 
 
-Oh! I haven't introduced myself...
+Esta aplicacion consta de **4 activities** con sus respectivas **funciones**.
 
-I'm the GitHub Learning Lab **bot** and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+1. **Splash**
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+![issue tab](images/icono.png)
+
+En este apartado, una vez entramos en la aplicación a traves del icono, lo primero que veremos es una animación en
+diagonal de **abajo-ariba** en el que al final del trayecto el icono desaparece, toda esta animacion dura 3 seg
+antes de entrar al activity de login. para conseguir este resultado, se consigue a traves del siguiente codigo **xml** y **java**.
+
+
 
 I'll meet you over there, can't wait to get started!
 

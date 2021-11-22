@@ -26,7 +26,7 @@ public class SplashScreen extends AppCompatActivity {
         //SIRVE PARA HACER LA TRANSICION ENTRE EL SPLASH Y EL LOGIN
         openLogin(true);
         //GLIDE FOR LOADING GIRLS
-        ImageView mFondo = findViewById(R.id.inicio);
+        //ImageView mFondo = findViewById(R.id.inicio);
 //        Glide.with(this)
 //                //.load(R.drawable.girl)
 //                .load("https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80")
@@ -52,6 +52,6 @@ public class SplashScreen extends AppCompatActivity {
                 Intent intent = new Intent(SplashScreen.this, Login.class);
                 startActivity(intent);
             }
-        }, 3000);
+        }, 2100);
     }
 }
