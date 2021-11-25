@@ -9,8 +9,12 @@
 <color name="white">#FFFFFFFF</color>
     <color name="verde">#30DC84</color>
     <color name="azul">#3A55E6</color>
+    <color name="morado">#A1466D</color>
     <color name="rojito">#FF5722</color>
     <color name="white_alpha">#80FFFFFF</color>
     <color name="yellow">#FFEB3B</color>
     <color name="dark_blue">#002666</color>
+    <color name="amararillo">#D8AA1F</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="translucido">#33000000</color>
 </resources>
