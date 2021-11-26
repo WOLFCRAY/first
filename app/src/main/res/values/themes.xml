@@ -23,7 +23,7 @@
 
     <!--    TEMA PARA EL ACTIONBAR-->
     <style name="MyActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
-        <item name="background">@color/transparent</item>
+        <item name="background">@color/dark_blue</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="windowActionBarOverlay">true</item>
     </style>
