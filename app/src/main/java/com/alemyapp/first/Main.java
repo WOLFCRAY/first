@@ -23,8 +23,10 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //TextView mycontext = (TextView) findViewById(R.id.textTap);
-       // registerForContextMenu(mycontext);
+
+        //tap
+//        TextView mycontext = (TextView) findViewById(R.id.textTap);
+//        registerForContextMenu(mycontext);
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
 

@@ -26,8 +26,8 @@
         <item name="background">@color/transparent</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="windowActionBarOverlay">true</item>
-
     </style>
+<!--OTRO TEMA PARA EL ACTION BAR-->
     <style name="TransparentToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
     </style>

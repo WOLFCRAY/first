@@ -15,7 +15,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 /**
- * @author Alex y Alejandro
+ * @author Alex
  */
 public class Login extends AppCompatActivity {
     ImageView logo;
