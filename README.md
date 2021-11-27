@@ -2,17 +2,19 @@
 ## Autor
 **Alex Pallango**
 ## Concepto
----------------------------------- **SPLASH** --------------------------------------------------------------------- **LOGIN**
+------------------------------ **SPLASH** ------------------------------------------------ **LOGIN** ----------
 
 ![issue tab](images/splash.png) ![issue tab](images/login.png)
 
---------------------------------- **SIGNUP** ----------------------------------------------------------------------  **MAIN**
+--------------------------- **SIGNUP** --------------------------------------------------  **MAIN** -----------
 
 ![issue tab](images/signup.png) ![issue tab](images/main.png)
 
 ## Funcionamiento
 
 Esta aplicacion consta de **4 activities** con sus respectivas **funciones**.
+
+![issue tab](images/movil.gif)
 
 1. **Splash**
 
@@ -21,8 +23,6 @@ Esta aplicacion consta de **4 activities** con sus respectivas **funciones**.
 En este apartado, una vez entramos en la aplicación a traves del icono, lo primero que veremos es una animación en
 diagonal de **abajo-ariba** en el que al final del trayecto el icono desaparece, toda esta animacion dura 3 seg
 antes de entrar al activity de login. para conseguir este resultado, se consigue a traves del siguiente codigo [**java**](https://github.com/WOLFCRAY/first/blob/MaterialLogin/app/src/main/java/com/alemyapp/first/SplashScreen.java).
-
-![issue tab](images/movil.gif)
 
 2. **Login**
 
