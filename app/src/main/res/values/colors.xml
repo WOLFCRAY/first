@@ -17,4 +17,5 @@
     <color name="amararillo">#D8AA1F</color>
     <color name="transparent">#00FFFFFF</color>
     <color name="translucido">#33000000</color>
+    <color name="gris">#333435</color>
 </resources>

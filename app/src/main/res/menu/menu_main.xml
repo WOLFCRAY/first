@@ -6,7 +6,7 @@
     <item
         android:id="@+id/mando"
         android:title="mando"
-        android:icon="@drawable/ic_mando"
+        android:icon="@drawable/ic_mando1"
         app:showAsAction="always" />
     <item
         android:id="@+id/buscar"
