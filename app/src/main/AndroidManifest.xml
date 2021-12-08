@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.alemyapp.first">
+<!--    PARA PODER USAR RECURSOS DE INTERNET-->
     <uses-permission android:name="android.permission.INTERNET"/>
+<!--    ICONO DE LA APP-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/id_mando"
@@ -13,6 +15,7 @@
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/NoActionTheme">
+<!--            EL INTENT ES PARA QUE INICIE LA APP EN ESTE SPLASH-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
