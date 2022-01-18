@@ -13,12 +13,15 @@
         <entry key="..\:/PROYECTOS_ANDROID/AndroidStudioProjects/first/app/src/main/res/layout/alertdialog_view.xml" value="0.32155797101449274" />
         <entry key="..\:/PROYECTOS_ANDROID/AndroidStudioProjects/first/app/src/main/res/menu/menu_context.xml" value="0.3416666666666667" />
         <entry key="..\:/PROYECTOS_ANDROID/AndroidStudioProjects/first/app/src/main/res/menu/menu_main.xml" value="0.3416666666666667" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.3828125" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable-anydpi/ic_add1.xml" value="0.37864583333333335" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable-anydpi/ic_mando1.xml" value="0.3734375" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/email.xml" value="0.3734375" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/gradient.xml" value="0.21770833333333334" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/gradient_buttom.xml" value="0.3828125" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/ic_heart1.xml" value="0.3734375" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/ic_mando.xml" value="0.3828125" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/ic_menu.xml" value="0.3828125" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/ic_search1.xml" value="0.3067708333333333" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/id_logo_background.xml" value="0.31145833333333334" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/drawable/id_mando_foreground.xml" value="0.3734375" />
@@ -28,6 +31,8 @@
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/layout/activity_signup.xml" value="0.2765625" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/layout/activity_splash_screen.xml" value="0.290625" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/layout/buttonappbar.xml" value="0.67" />
+        <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/menu/botton_app_bar_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/menu/menu_context.xml" value="0.3572916666666667" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/menu/menu_main.xml" value="0.3572916666666667" />
         <entry key="..\:/Perfiles/am11dam2/Desktop/WOLFCRAY/android/first/app/src/main/res/mipmap-anydpi-v26/id_logo.xml" value="0.31145833333333334" />

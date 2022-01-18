@@ -33,6 +33,7 @@
             android:name=".Main"
             android:exported="true">
         </activity>
+        <activity android:name=".ButtonAppBar" />
 
         <meta-data
             android:name="preloaded_fonts"
