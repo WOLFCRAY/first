@@ -19,9 +19,6 @@
             android:layout_gravity="bottom"
             app:fabAlignmentMode="center"
             android:backgroundTint="@color/dark_blue"
-            app:fabCradleMargin="10dp"
-            app:fabCradleRoundedCornerRadius="50dp"
-            app:fabCradleVerticalOffset="30dp"
             app:menu="@menu/botton_app_bar_menu"
             app:navigationIcon="@drawable/ic_menu"/>
 
